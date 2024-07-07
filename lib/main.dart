@@ -1,6 +1,9 @@
+import 'package:bottom_navigation/ColumnRow.dart';
+import 'package:bottom_navigation/Container.dart';
 import 'package:bottom_navigation/bottomNavigationBar.dart';
 import 'package:bottom_navigation/carAnimation.dart';
 import 'package:bottom_navigation/curvedNavigationBar.dart';
+import 'package:bottom_navigation/layout.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,9 +18,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      // home: const BottomNavigationBarExample(),
+      //  home: const BottomNavigationBarExample(),
       // home: CurvedNavigationBarExample(),
-      home: Caranimation(),
+      //  home: Caranimation(),
+      //home: Container1(),
+      //home: Columnrow(),
+      home: Layout(),
     );
   }
 }

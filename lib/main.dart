@@ -4,6 +4,9 @@ import 'package:bottom_navigation/bottomNavigationBar.dart';
 import 'package:bottom_navigation/carAnimation.dart';
 import 'package:bottom_navigation/curvedNavigationBar.dart';
 import 'package:bottom_navigation/layout.dart';
+import 'package:bottom_navigation/layout2.dart';
+import 'package:bottom_navigation/layout3.dart';
+import 'package:bottom_navigation/layout4.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -23,7 +26,10 @@ class MyApp extends StatelessWidget {
       //  home: Caranimation(),
       //home: Container1(),
       //home: Columnrow(),
-      home: Layout(),
+      //  home: Layout(),
+      // home: Layout2(),
+      //  home: Layout3(),
+      home: Layout4(),
     );
   }
 }
